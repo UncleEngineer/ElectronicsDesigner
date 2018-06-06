@@ -27,7 +27,7 @@ class Application(tk.Frame):
         self.master.bind('<KeyPress>', self.move_Knight)
         self.master.bind('<Button-1>', self.resister_click)
 
-        self.canvas = tk.Canvas(self, bg='steelblue', highlightthickness=0,width=700)
+        self.canvas = tk.Canvas(self, bg='steelblue', highlightthickness=0,width=1000,height=700)
         self.canvas.pack()
          
         self.knight1_speed = 2
